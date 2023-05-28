@@ -49,15 +49,15 @@
         ORPLC = #{orplc},
         SLE_UNIT = #{sle_unit},
         WEIGHT = #{weight},
-        MFT_TM = #{mft_tm}
-        DISTB_TLMT = #{distb_tlmt}
+        MFT_TM = #{mft_tm},
+        DISTB_TLMT = #{distb_tlmt},
         WARN = #{warn},
         MAX_SLE_QUTY = #{max_sle_quty},
         SFKP_TP_STATE_CD = #{state},
         SLE_START_TM = #{sle_start_tm},
         SLE_END_TM = #{sle_end_tm},
         INV_QUTY = #{inv_quty},
-        GUID = #{guid}
+        GUID = #{guid},
         where prod_idx = #{prod_idx};
     </update>
 
